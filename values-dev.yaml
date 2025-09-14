@@ -1,0 +1,6 @@
+deployment:
+  imageURL: 557690617909.dkr.ecr.us-east-1.amazonaws.com/roboshop/cart
+  imageVersion: 1.0.0
+hpa:
+  maxreplicas: 10
+  utilization: 75
