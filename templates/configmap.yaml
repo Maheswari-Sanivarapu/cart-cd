@@ -8,6 +8,6 @@ metadata:
     project: roboshop
     tier: app
 data:
-  REDIS_HOST: redis 
-  CATALOGUE_HOST: catalogue
+  REDIS_HOST: "redis" 
+  CATALOGUE_HOST: "catalogue"
   CATALOGUE_PORT: 8080
